@@ -92,14 +92,12 @@ const CustomerPage = ({setFormData}) => {
                 label="Sugar"
                 checked={hasSugar}
                 onChange={(event)=>setHasSugar(event.target.value)}
-                required
               />
               <Form.Check
                 type="checkbox"
                 label="Blood Pressure"
                 checked={hasBloodPressure}
                 onChange={(event)=>setHasBloodPressure(event.target.value)}
-                required
               />
             </Form.Group>
 

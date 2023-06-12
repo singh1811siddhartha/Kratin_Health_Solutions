@@ -45,7 +45,7 @@ const Routine = ({formData})=> {
         <Row>{formData.hasSugar ? "15 minutes of Moring walk before yoga" : "30 minutes jogging is helpful in breathing and blood circulations"}</Row>
         <Row>{formData.hasBloodPressure ? "10 minutes of light walk thrice while keeping a break of 5 mins " : ""}</Row>
         <h3>Food Items:</h3>
-        <Row>{formData.hasSugar ? "check sugar level regularly, Sugarfree tea, rice in only one meal(Lunch), eat snacks in a gap of 3 hours, Less Spicy food" : "Eat less spicy food, mild quantity of sugar or sal in meals"}</Row>
+        <Row>{formData.hasSugar ? "check sugar level regularly, Sugarfree tea, rice in only one meal(Lunch), eat snacks in a gap of 3 hours, Less Spicy food" : "Eat less spicy food, mild quantity of sugar or salt in meals"}</Row>
         <Row>{formData.hasBloodPressure ? "control salt intake, not very high, not very low, avoidy oily foods" : "Prefer less spicy foods, avoid fried items and junk foods"}</Row>
         </Container>
         <Row>
